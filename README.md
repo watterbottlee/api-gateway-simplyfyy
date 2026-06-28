@@ -56,6 +56,17 @@ spring:
               uri: ${HRMS_URI}
               predicates:
                 - Path=/**
+
+jwt:
+  secretKey: ${JWT_SECRET_KEY}
+
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGIN}
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    reactor.netty: DEBUG
 ```
 
 ---
