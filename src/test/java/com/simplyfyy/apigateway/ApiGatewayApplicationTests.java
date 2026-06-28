@@ -1,4 +1,4 @@
-package com.simplyfyy.api_gateway;
+package com.simplyfyy.apigateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

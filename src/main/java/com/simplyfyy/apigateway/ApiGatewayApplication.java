@@ -1,9 +1,12 @@
-package com.simplyfyy.api_gateway;
+package com.simplyfyy.apigateway;
 
+import com.simplyfyy.apigateway.config.JwtProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 @SpringBootApplication
+@EnableConfigurationProperties(JwtProperties.class)
 public class ApiGatewayApplication {
 
 	public static void main(String[] args) {
